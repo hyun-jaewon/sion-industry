@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>(주)시온산업</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #333;
+      padding-top: 60px;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    header {
+      background: url('building.jpg') no-repeat top center / cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .about-img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .about-text {
+      flex: 1;
+      min-width: 250px;
+    }
+    .service-img-group {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .service-img-group img {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .button {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">회사 소개</a></li>
+      <li><a href="#services">주요 서비스</a></li>
+      <li><a href="#contact">문의</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>(주)시온산업</h1>
+  </header>
+
+  <section id="about">
+    <h2>회사 소개</h2>
+    <div class="about-container">
+      <img src="sion-map.png" alt="시온산업 경쟁력" class="about-img" />
+      <div class="about-text">
+        <p>(주)시온산업은 사업장 폐기물 운반 및 처리 전문 기업입니다.<br>
+        환경을 생각하며 효율적인 자원화를 실현합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>주요 서비스</h2>
+    <div class="service-img-group">
+      <img src="portfolio1.png" alt="집수조 준설 포트폴리오">
+      <img src="portfolio2.png" alt="폐기물 운반 포트폴리오">
+      <img src="portfolio3.png" alt="인허가 보유 현황">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>문의</h2>
+    <p>📞 <a href="tel:01037612762">010-3761-2762</a><br>담당 영업사원: 현재원 과장</p>
+    <a class="button" href="tel:01037612762">전화 문의하기</a>
+  </section>
+
+  <footer>
+    &copy; 2025 (주)시온산업
+  </footer>
+
+</body>
+</html>
